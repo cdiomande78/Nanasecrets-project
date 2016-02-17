@@ -65,10 +65,59 @@
 </nav>
 
 <div id="wrapper">
+  <div class="lead">
+      <h1>DEGUSTEZ UNE GLACE</h1>
+      <h2>Maintenant et tout de suite</h2>
+        <p>
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#orderform">
+          Commander une glace
+        </button>
+        </p>
+  </div>
+</div>
 
-    <h1>DEGUSTEZ UNE GLACE</h1>
-    <h2>Maintenant et tout de suite</h2>
-<button type="button" class="btn btn-primary">Commander</button>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#orderform">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <!-- <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div> -->
+      <div class="modal-body">
+        <div id="wufoo-z13roo9s0pgxuo8">
+          Fill out my <a href="https://nanasecrets.wufoo.com/forms/z13roo9s0pgxuo8">online form</a>.
+          </div>
+          <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">The easy to use <a href="http://www.wufoo.com/form-builder/">Wufoo form builder</a> helps you make forms easy, fast, and fun.</div>
+          <script type="text/javascript">var z13roo9s0pgxuo8;(function(d, t) {
+          var s = d.createElement(t), options = {
+          'userName':'nanasecrets',
+          'formHash':'z13roo9s0pgxuo8',
+          'autoResize':true,
+          'height':'636',
+          'async':true,
+          'host':'wufoo.com',
+          'header':'show',
+          'ssl':true};
+          s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+          s.onload = s.onreadystatechange = function() {
+          var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+          try { z13roo9s0pgxuo8 = new WufooForm();z13roo9s0pgxuo8.initialize(options);z13roo9s0pgxuo8.display(); } catch (e) {}};
+          var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+          })(document, 'script');</script>
+
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+    </div>
+  </div>
 </div>
 
 <div class="spacer"></div>
